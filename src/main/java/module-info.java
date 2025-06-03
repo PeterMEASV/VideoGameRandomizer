@@ -3,6 +3,9 @@ module gg.projects.videogamerandomizer {
     requires javafx.fxml;
 
 
-    opens gg.projects.videogamerandomizer to javafx.fxml;
-    exports gg.projects.videogamerandomizer;
+    opens videogamerandomizer to javafx.fxml;
+    opens videogamerandomizer.GUI to javafx.fxml;
+    exports videogamerandomizer;
+    exports videogamerandomizer.GUI;
+
 }
