@@ -1,0 +1,19 @@
+.selectionStyle {
+    -fx-background-color: #c3c3c3;
+    -fx-border-width: 1px;
+    -fx-border-radius: 15;
+    -fx-border-color: #979797;
+    -fx-background-radius: 15;
+}
+
+.combo-box {
+    -fx-alignment: CENTER;
+}
+
+.combo-box > .list-cell {
+    -fx-alignment: CENTER;
+}
+
+.combo-box-popup .list-view .list-cell {
+    -fx-alignment: CENTER;
+}
